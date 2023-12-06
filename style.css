@@ -1,0 +1,232 @@
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block; /* Esto es para quitar cualquier espacio adicional por debajo de la imagen */
+}
+
+.triangulo {
+  width: 5%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Resto de tus estilos */
+
+h3 {
+  text-align: left;
+  font-family: Helvetica;
+  line-height: 1.5;
+  font-weight: 800;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  font-family: Helvetica;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+p {
+  font-family: Helvetica;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Resto de tus estilos */
+
+body {
+  margin: 0;
+  /* display: flex;
+  place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#my-wrapper-1 {
+  width: 100%;
+}
+
+#my-wrapper-2 {
+  margin: auto;
+  max-width: 1280px;
+}
+
+#header {
+  max-width: 800px;
+  text-align: center;
+  margin: 0px auto; 
+}
+
+#main_title {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-top: 0; /* Elimino el margen superior para que esté más cerca del .volanta */
+}
+
+.volanta {
+  display:;
+  padding: 5px 10px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.subtitulo {
+  font-size: 2em;
+  text-align: center;
+}
+
+#bajada {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+
+.texto_container {
+  max-width: 700px;
+  padding: 0 20px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: left;
+}
+.texto_parrafo {
+  margin: 50px auto;
+}
+
+#corte {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#my-wrapper-4 {
+  margin: auto;
+  max-width: 80%;
+}
+
+.fl-scrolly-step {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  color: rgb(0, 0, 0) !important;
+  max-width: 400px !important;
+}
+
+#bajada {
+  background-color: #f2f2f2;
+  padding: 20px; /* Puedes ajustar este valor según sea necesario */
+  color: #000; /* Color del texto */
+  font-size: 30; /* Tamaño de fuente */
+  padding-bottom: 40px;
+  margin: bottom 20px;
+}
+
+.esconder{
+  color: transparent !important;
+  background: rgba(255, 255, 255, 0) !important;
+  box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px !important;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 60px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .footer_container {
+    margin-top: 10px;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #00AF00;
+    margin: 5px; /* Ajusta según sea necesario */
+  }
+  
+  nav a:hover {
+    color: #0098FF;
+  }
+  
+  .autores_container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .autores_left {
+    text-align: left;
+    margin-right: 100px; /* Alinea a la izquierda */
+  }
+  
+  .autores_right {
+    text-align: right;
+    margin-left: 100px; /* Alinea a la derecha */
+  }
+  
+  .autores_container p {
+    margin: 0;
+  
+  }
+  
+  .creditos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px; /* Ajusta según sea necesario */
+  }
+  
+  .creditos p {
+    font-size: 20px;
+    border-bottom: 2px solid #000; /* Línea bajo el párrafo */
+    padding-bottom: 10px; /* Espacio entre el párrafo y la línea */
+    margin-bottom: 10px; /* Espacio adicional después de la línea */
+  }
